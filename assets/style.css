@@ -6,6 +6,8 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #faf7f7;
+    
 }
 
 .navbar{
@@ -41,4 +43,51 @@ body{
     font-weight: 300;
     color: #000000;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.work-heading h3{
+    font-size: 1.5em;
+    font-weight: 200;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.work-heading h3:hover{
+    color:#037df8;
+}
+
+.work-img{
+    border-radius: 6px;
+    text-align: center;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+.work-img:hover{
+    box-shadow: 2px 2px 10px #037df8;
+    transition: all .3s ease-in-out;
+}
+
+@media only screen and (max-width: 600px){
+    .heading-content h1{
+        font-size: 3em;
+        font-weight: 300;
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .heading-content h3{
+        font-size: .5em;
+        font-weight: 200;
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .post-heading h3{
+        font-size: 3em;
+    }
 }
