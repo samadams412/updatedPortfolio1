@@ -74,9 +74,20 @@ body{
 @media only screen and (max-width: 600px){
     .heading-content h1{
         font-size: 3em;
-        font-weight: 300;
+        font-weight: 500;
         color: #000000;
         font-family: 'Roboto Condensed', sans-serif;
+    }
+    .heading-content h5{
+        font-size: 2em;
+        font-weight: 400;
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .offset:before{
+        display: block;
+        content: "";
+        height: 10rem;
     }
 }
 
