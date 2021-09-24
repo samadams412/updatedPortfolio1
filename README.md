@@ -18,6 +18,7 @@
 -Add some more Media Queries
 -Customize Sections more
 -Update pictures and About me Info
+-Add Javascript and some server side APIs
 ```
 
 ## Mobile Phone Responsiveness
